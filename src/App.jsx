@@ -9,6 +9,14 @@ function App() {
             <Aside />
             <Main>
                 <SearchInput />
+                <div>
+                    <Typography>
+                        Hello, Maria
+                    </Typography>
+                    <Typography>
+                        See how are your finances today
+                    </Typography>
+                </div>
             </Main>
         </Container>
     )
