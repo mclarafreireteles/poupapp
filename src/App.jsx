@@ -17,6 +17,40 @@ function App() {
                         See how are your finances today
                     </Typography>
                 </div>
+                <section>
+                    <Card>
+                        <Card.Header>
+                            Daily budget available
+                        </Card.Header>
+                        <Card.Body>
+                            $200.00
+                        </Card.Body>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            Daily budget available
+                        </Card.Header>
+                        <Card.Body>
+                            $200.00
+                        </Card.Body>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            Daily budget available
+                        </Card.Header>
+                        <Card.Body>
+                            $200.00
+                        </Card.Body>
+                    </Card>
+                    <Card>
+                        <Card.Header>
+                            Daily budget available
+                        </Card.Header>
+                        <Card.Body>
+                            $200.00
+                        </Card.Body>
+                    </Card>
+                </section>
             </Main>
         </Container>
     )
