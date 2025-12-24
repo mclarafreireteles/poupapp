@@ -2,6 +2,7 @@ import { Aside } from './components/Aside';
 import { Container } from './components/Container';
 import { SearchInput } from './components/SearchInput';
 import { Main } from './components/Main';
+import { DailyBudget } from './components/DailyBudget';
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
                             Daily budget available
                         </Card.Header>
                         <Card.Body>
-                            $200.00
+                            <DailyBudget value={200}/>
                         </Card.Body>
                     </Card>
                     <Card>
