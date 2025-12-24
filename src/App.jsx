@@ -3,6 +3,7 @@ import { Container } from './components/Container';
 import { SearchInput } from './components/SearchInput';
 import { Main } from './components/Main';
 import { DailyBudget } from './components/DailyBudget';
+import { SavingStatus } from './components/SavingsStatus';
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                         Hello, Maria
                     </Typography>
                     <Typography>
-                        See how are your finances today
+                        See how your finances are today
                     </Typography>
                 </div>
                 <section>
@@ -29,10 +30,10 @@ function App() {
                     </Card>
                     <Card>
                         <Card.Header>
-                            Daily budget available
+                            Finance goal progress
                         </Card.Header>
                         <Card.Body>
-                            $200.00
+                            <SavingStatus percent={40}/>
                         </Card.Body>
                     </Card>
                     <Card>
