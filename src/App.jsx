@@ -4,6 +4,8 @@ import { SearchInput } from './components/SearchInput';
 import { Main } from './components/Main';
 import { DailyBudget } from './components/DailyBudget';
 import { SavingStatus } from './components/SavingsStatus';
+import { Typography } from './components/Typography';
+import Card from './components/Card'
 
 function App() {
     return (
