@@ -5,6 +5,7 @@ import { Main } from './components/Main';
 import { DailyBudget } from './components/DailyBudget';
 import { SavingStatus } from './components/SavingsStatus';
 import { Typography } from './components/Typography';
+import { Transactions } from './components/Transactions';
 import Card from './components/Card'
 import styles from './app.module.css'
 
@@ -42,10 +43,10 @@ function App() {
                         </Card>
                         <Card>
                             <Card.Header>
-                                Daily budget available
+                                Financial movement
                             </Card.Header>
                             <Card.Body>
-                                $200.00
+                                <Transactions/>
                             </Card.Body>
                         </Card>
                         <Card>
