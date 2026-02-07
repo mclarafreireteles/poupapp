@@ -29,8 +29,6 @@ export const Transactions = () => {
                     <IconCurrency/> Add transaction
                 </Button>
             </div>
-
-            
         </>
     )
 }
