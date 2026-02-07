@@ -24,9 +24,13 @@ export const Transactions = () => {
                 })}
             </ul>
 
-            <Button>
-                <IconCurrency/> Add transaction
-            </Button>
+            <div className={styles.actions}>
+                <Button>
+                    <IconCurrency/> Add transaction
+                </Button>
+            </div>
+
+            
         </>
     )
 }
